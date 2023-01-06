@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+
+    <title>Wana Iguana Fresh Baja Grill- Valencia, CA</title>
+
+    <!-- Iquana icon -->
+    <link rel="icon" href="/img/iguana.ico" type="image/x-icon" />
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
+
+    <!-- Google Fonts -->
+    <!-- Roboto -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"/>
+    <!-- Crimison Pro -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Crimson+Pro">
+    <!-- Fredoka One --->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+    <!-- Bootstrap Icons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+
+    <!-- Local Stylesheet -->
+    <link rel="stylesheet" href="css/stylesheet.css" />
+
+    <!-- JavaScript File -->
+    <script defer src="js/app.js"></script>
+
+  </head>
+
+  <body>
+
+    <!-- Start your project here-->
+
+  <!-- Navbar -->
+
+  <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <img src="img/iguana.png" style="width:40px;" alt="Wana Iquana Logo" loading="lazy" style="margin-top: -1px;"/>
+      </a>
+
+      <a class="navbar-brand d-none d-sm-block" href="index.html">Wana Iguana | Baja Fresh Grill</a>
+      <a class="navbar-brand 	d-sm-none" href="index.html">Wana Iguana</a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="mynavbar">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="menu.html">Menu</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="specials.html">Specials</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="aboutus.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="valencia.html">Valencia, CA</a>
+          </li>
+        </ul>
+
+        <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#exampleModal"> <i class="bi bi-bag-fill" style="margin-right: 10px;"></i>order now</button>
+
+      </div>
+    </div>
+  </nav>
+
+  <!-- Navbar END -->
+
+   
+
+<!-- Modal -->
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+
+      <div class="modal-header">
+        <p class="display-5">Our ordering system is under construction.</p>
+      </div>
+     
+      <div class="modal-body text-center">
+        <h1>for now we'd love to hear your voice.<i class="bi bi-phone-fill"></i></h1>
+        <h4 class="display-3">661-297-9222</h4>
+        <h5>Monday - Friday : 10AM to 9PM</h5>
+        <h5>Saturday - Sunday : 8AM to 9PM</h5>
+       
+      </div>
+
+      <div class="modal-footer">
+        <label for="exampleFormControlInput1" class="form-label text-left"> <h4>Be the first to now when you can order online.</h4></label>
+
+        <div class="input-group mb-3 ">
+          <input id="exampleFormControlInput1" class="form-control form-control-lg" type="email" placeholder="tacos@wanaiguana.com" aria-label=".form-control-lg example">
+          <button style=" box-shadow: none;"class="btn btn-primary" type="button" id="inputGroupFileAddon04">let me know</button>
+        </div>
+
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+<!-- Modal END -->
+
+<!-- Hero -->
+
+<div class="bg-image" style=" background-image: url('img/menu.jpg');  background-size: cover; height: 100vh;">
+  <div class="mask h-100" style="background-color: rgba(0, 0, 0, 0.6);">
+    <div class="h-100 d-flex flex-column justify-content-center align-items-center">
+      <h1 class="text-white mb-0 display-3">Menu</h1>
+      <p class="text-white mb-0 p-3 text-center display-5">we offer a wide selection of fresh mexican food. From traditional mexican plates such as burritos and tacos to our own spin on healthy cuisine through our "health-mex" options.</p>
+      <a style="cursor:auto" href="#burrito-sec"><i class="fas fa-arrow-circle-down fa-3x mt-5" style="color: #fff"></i></a>
+    </div>
+  </div>
+</div>
+
+<!-- Hero END -->
+
+<div id="burrito-sec" class="container hidden-left">
+
+  <div class="row text-center m-5">
+    <h1>Burritos</h1>
+  </div>
+
+  <div class="row">
+
+    <div class="col-lg-3 col-md-4 col-sm-6">
+      <h2>Fajita Burrito</h2>
+      <p>Steak or chicken sautéed, peppers, onions, zucchini, and tomato sauce.</p>
+      <h4>$11.49</h4>
+    </div>
+
+    <div class="col-lg-3 col-md-4 col-sm-6">
+        <h2>Super Burrito</h2>
+        <p>Shredded beef, choice of beans, cheese, pico de gallo, guacamole, and sour cream.</p>
+        <h4>$10.59</h4>
+    </div>
+
+    <div class="col-lg-3 col-md-4 col-sm-6">
+        <h2>Burrito Grande</h2>
+        <p>Charbroiled steak or chicken with rice, choice of beans, cheese, and pico de gallo.</p>
+        <h4>$10.59</h4>
+    </div>
+
+    <div class="col-lg-3 col-md-4 col-sm-6">
+      <h2>Bravo Burrito</h2>
+      <p>Charbroiled steak or chicken with choice of beans, fresh avocado slices, cheese, and our special hot bravo sauce.</p>
+      <h4>$12.19</h4>
+    </div>
+
+    <div class="col-lg-3 col-md-4 col-sm-6">
+        <h2>Grilled Mahi Burrito</h2>
+        <p>Shredded beef, choice of beans, cheese, pico de gallo, guacamole, and sour cream.</p>
+        <h4>$12.19</h4>
+    </div>
+
+    <div class="col-lg-3 col-md-4 col-sm-6">
+        <h2>Classic Burrito</h2>
+        <p>CRice, cheese and choice of beans.</p>
+        <h4>$6.49</h4>
+    </div>
+
+    <div class="col-lg-3 col-md-4 col-sm-6">
+      <h2>Burrito Del Mar</h2>
+      <p>Grilled shrimp with rice, tomatoes, cheese, and fresh slices of avocado.</p>
+      <h4>$12.19</h4>
+    </div>
+
+  </div>
+
+</div>
+
+
+    <!-- Tacos -->
+    <div id="tacos-sec" class="container hidden-right">
+
+      <div class="row text-center m-5">
+        <h1>Original Tacos</h1>
+      </div>
+  
+      <div class="row">
+  
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <h2>Taco Suave</h2>
+          <p>Soft corn tortilla with choice of charbroiled steak or chicken with lettuce, cheese, and pico de gallo.</p>
+          <h4>$4.25</h4>
+        </div>
+  
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <h2>Taco Duro</h2>
+            <p>Hard shell corn tortilla with choice of shredded beef or chicken with cheese, lettuce, and our special tomato sauce.</p>
+            <h4>$4.25</h4>
+        </div>
+  
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <h2>Taco Bravo</h2>
+            <p>Choice of steak or chicken, beans, fresh avocado, and our special bravo sauce.</p>
+            <h4>$4.25</h4>
+        </div>
+  
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <h2>Taco Del Mar</h2>
+          <p>Choice of mahi-mahi or shrimp with cabbage, pico de gallo, and white sauce.</p>
+          <h4>$4.99</h4>
+        </div>
+  
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <h2>Taco Supreme</h2>
+            <p>Large crispy flour tortilla with choice of beef or chicken filled with lettuce, cheese sour cream, and fresh guacamole.</p>
+            <h4>$6.39</h4>
+        </div>
+  
+      </div>
+  
+    </div>
+
+         <!-- Favorites -->
+  <div id="favorites-sec" class="container hidden-left">
+
+    <div class="row text-center m-5">
+      <h1>Favorites</h1>
+    </div>
+
+    <div class="row">
+
+      <div class="col-lg-3 col-md-4 col-sm-6">
+        <h2>Shrimp Cocktail</h2>
+        <p>From Mexico City, A Recipe that includes 18 fresh shrimp, avocado slices, pico de gallo, and lots of lime juice.</p>
+        <h4>$17.99</h4>
+      </div>
+
+      <div class="col-lg-3 col-md-4 col-sm-6">
+          <h2>Shrimp Kabob Dinner</h2>
+          <p>Two shrimp skewers served with rice and a side salad.</p>
+          <h4>$17.99</h4>
+      </div>
+
+      <div class="col-lg-3 col-md-4 col-sm-6">
+          <h2>Fajitas</h2>
+          <p>Sauteéd steak or chicken served with rice and choice of beans, guacamole, sour cream and pico de gallo.</p>
+          <h4>$15.99</h4>
+      </div>
+
+      <div class="col-lg-3 col-md-4 col-sm-6">
+        <h2>Chimichanga</h2>
+        <p>Two rolled crispy flour tortillas stuffed with shredded beef or shredded chicken with sides of guacamole, sour cream, and pico de gallo.</p>
+        <h4>$10.59</h4>
+      </div>
+      
+      <div class="col-lg-3 col-md-4 col-sm-6">
+          <h2>Taquitos</h2>
+          <p>Three rolled corn tortillas filled with shredded beef or shredded chicken with sides of guacamole, and pico de gallo.</p>
+          <h4>$7.99</h4>
+      </div>
+
+      <div class="col-lg-3 col-md-4 col-sm-6">
+        <h2>Quesadilla Deluxe</h2>
+        <p>Flour tortilla with melted cheese, with sides of guacamole, sour cream, and pico de gallo.</p>
+        <h4>$8.49</h4>
+      </div>
+
+      <div class="col-lg-3 col-md-4 col-sm-6">
+        <h2>Quesadilla Supreme</h2>
+        <p>Wheat tortilla filled with melted cheese, grilled veggies, and choice of beans with sides of guacamole, sour cream, and pico de gallo.</p>
+        <h4>$9.59</h4>
+      </div>
+
+      <div class="col-lg-3 col-md-4 col-sm-6">
+        <h2>Mexican Nachos</h2>
+        <p>Corn chips, sprinkled with melted cheese, choice of beans topped with guacamole and sour cream.</p>
+        <h4>$9.59</h4>
+      </div>
+
+      <div class="col-lg-3 col-md-4 col-sm-6">
+        <h2>Chicken Nachos</h2>
+        <p>Two fried corn tortillas cut in half, topped with choice of beans chicken and melted cheese with sides of guacamole, sour cream and pico de gallo.</p>
+        <h4>$11.19</h4>
+      </div>
+
+      <div class="col-lg-3 col-md-4 col-sm-6">
+        <h2>Torta</h2>
+        <p>Choice of steak or chicken on toasted Mexican bread with choice of beans, guacamole and tomato slices.</p>
+        <h4>$9.59</h4>
+      </div>
+
+    </div>
+    
+  </div>
+
+    <!-- Combinations -->
+    <div id="combo-sec" class="container hidden-right">
+
+      <div class="row text-center m-5">
+        <h1>Combinations</h1>
+      </div>
+  
+      <div class="row">
+  
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <h2>#1 One Taco</h2>
+          <p>Soft corn tortilla with choice of charbroiled steak or chicken with lettuce, cheese, and pico de gallo.</p>
+          <h4>$6.99</h4>
+        </div>
+  
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <h2>#2 Two Tacos</h2>
+            <p>Hard shell corn tortilla with choice of shredded beef or chicken with cheese, lettuce, and our special tomato sauce.</p>
+            <h4>$10.99</h4>
+        </div>
+  
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <h2>#3 One Enchilada</h2>
+            <p>Corn tortilla rolled and filled with cheese. Comes with side of rice and beans.</p>
+            <h4>$6.99</h4>
+        </div>
+  
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <h2>#4 Two Enchiladas</h2>
+          <p>Two corn tortillas rolled and filled with cheese. Comes with side of rice and beans.</p>
+          <h4>$10.99</h4>
+        </div>
+  
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <h2>#5 Burrito</h2>
+          <p>Choice of the Super Burrito or Grande Burrito. Comes with side of rice and beans.</p>
+          <h4>$12.49</h4>
+        </div>
+  
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <h2>#6 Taco & Enchilada</h2>
+          <p>Choice of a soft taco or crispy taco and a cheese enchilada. Comes with side of rice and beans.</p>
+          <h4>$12.49</h4>
+        </div>
+  
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <h2>#7 Burrito & Taco</h2>
+          <p>Choice of the Super burrito or Grande burrito, with a choice of the soft taco or crispy taco. Comes with side of rice and beans.</p>
+          <h4>$15.99</h4>
+        </div>
+  
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <h2>#8 Taquitos</h2>
+          <p>Three corn taquitos of shredded beef or shredded chicken with side of rice and beans.</p>
+          <h4>$9.99</h4>
+        </div>
+  
+      </div>
+  
+    </div>
+
+     <!-- Kids Menu -->
+  <div id="kids-sec" class="container hidden-left">
+
+    <div class="row text-center m-5">
+      <h1>Kids Menu</h1>
+    </div>
+
+    <div class="row">
+
+      <div class="col-lg-3 col-md-4 col-sm-6">
+        <h2>#1 Mini Taco</h2>
+        <p>Mini corn tortilla with choice of steak or chicken, with lettuce, cheese, and pico de gallo. Comes with side of rice and beans.</p>
+        <h4>$7.49</h4>
+      </div>
+
+      <div class="col-lg-3 col-md-4 col-sm-6">
+        <h2>#2 Two Taqutios</h2>
+        <p>Two crispy rolled corn tortillas filled with shredded beef or shredded chicken. Comes with side of rice and beans.</p>
+        <h4>$7.49</h4>
+      </div>
+
+      <div class="col-lg-3 col-md-4 col-sm-6">
+        <h2>#3 Mini Cheese Quesadilla</h2>
+        <p>Mini flour tortilla with melted cheese. Comes with side of rice and beans.</p>
+        <h4>$7.49</h4>
+      </div>
+
+      <div class="col-lg-3 col-md-4 col-sm-6">
+        <h2>#4 Bean & Cheese Burrito</h2>
+        <p>Mini flour tortilla filled with beans and cheese. Comes with side of rice and beans.</p>
+        <h4>$7.49</h4>
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- Health Mex -->
+  <div id="health-sec" class="container hidden-right">
+
+    <div class="row text-center m-5">
+      <h1>Health Mex</h1>
+    </div>
+
+    <div class="row">
+
+      <div class="col-lg-3 col-md-4 col-sm-6">
+        <h2>Tostada Supreme</h2>
+        <p>Large crispy flour tortilla shell filled with choice of beans, lettuce, topped with guacamole, sour cream, and pico de gallo. Choice of steak or chicken for meat.</p>
+        <h4>$11.49</h4>
+      </div>
+
+      <div class="col-lg-3 col-md-4 col-sm-6">
+        <h2>Chicken Salad</h2>
+        <p>Large crispy flour tortilla shell filled with choice of beans, lettuce, topped with guacamole, sour cream, and pico de gallo. Choice of steak or chicken for meat.</p>
+        <h4>$10.59</h4>
+      </div>
+
+      <div class="col-lg-3 col-md-4 col-sm-6">
+        <h2>Avocado Burrito</h2>
+        <p>Avocado slices, rice, choice of beans, sour cream, cheese, and pico de gallo rolled in a wheat tortilla.</p>
+        <h4>$10.59</h4>
+      </div>
+
+      <div class="col-lg-3 col-md-4 col-sm-6">
+        <h2>Grilled Veggie Burrito</h2>
+        <p>Sauteéd bell peppers, onions, zucchini, rice, choice of beans, and guacamole, rolled in a wheat tortilla.</p>
+        <h4>$10.59</h4>
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- Specials -->
+  <div id="specials-sec" class="container hidden-left">
+
+    <div class="row text-center m-5">
+      <h1>Specials</h1>
+    </div>
+
+    <div class="row">
+
+      <div class="col-lg-3 col-md-4 col-sm-6">
+        <h2>Mexican Chopped Salad</h2>
+        <p>Choice of steak or chicken, romaine lettuce, tomatoes, cucumbers, cheese, avocado slices, and corn chip pieces.</p>
+        <h4>$10.59</h4>
+      </div>
+
+      <div class="col-lg-3 col-md-4 col-sm-6">
+        <h2>Monster Diabla Burrito</h2>
+        <p>Grilled shrimp, lettuce, tomatoes, onions, rice, and made with our spiciest Diabla salsa. Comes as a wet burrito covered in Diabla salsa and side of nachos also covered in Diabla salsa.</p>
+        <h4>$16.99</h4>
+      </div>
+
+      <div class="col-lg-3 col-md-4 col-sm-6">
+        <h2>Ranch Chicken Wrap</h2>
+        <p>Grilled Chicken, avocado slices, lettuce, pico de gallo, and ranch dressing rolled in a wheat tortilla.</p>
+        <h4>$10.59</h4>
+      </div>
+
+      <div class="col-lg-3 col-md-4 col-sm-6">
+        <h2>Chicken Tortilla Soup</h2>
+        <p>Grilled chicken, tortilla chips, avocado slices, cheese, with a side of sour cream.</p>
+        <h4>$10.59</h4>
+      </div>
+
+      <div class="col-lg-3 col-md-4 col-sm-6">
+        <h2>Carnitas Burrito</h2>
+        <p>Carnitas, choice of beans, pico de gallo, avocado slices, and green salsa.</p>
+        <h4>$10.59</h4>
+      </div>
+
+      <div class="col-lg-3 col-md-4 col-sm-6">
+        <h2>Grilled Veggie Chicken Salad</h2>
+        <p>Romaine lettuce, grilled bell peppers, onions, zucchini, corn, tomatoes and cheese.</p>
+        <h4>$10.59</h4>
+      </div>
+
+      <div class="col-lg-3 col-md-4 col-sm-6">
+        <h2>Ceviche Tostada</h2>
+        <p>Marinated fish, pico de gallo, and avocado slices.</p>
+        <h4>$3.99</h4>
+      </div>
+
+      <div class="col-lg-3 col-md-4 col-sm-6">
+        <h2>Street Tacos</h2>
+        <p>3 mini tacos with choice of steak, chicken, or carnitas with cilantro and onions.</p>
+        <h4>$8.99</h4>
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- Breakfast -->
+  <div id="breakfast-sec" class="container hidden-right">
+
+    <div class="row text-center m-5">
+      <h1>Breakfast</h1>
+    </div>
+
+    <div class="row">
+
+      <div class="col-lg-3 col-md-4 col-sm-6">
+        <h2>Chilaquiles</h2>
+        <p>Corn tortilla chips covered in red sauce (same red sauce as used for enchiladas) topped with two scrambled eggs, and cheese. Comes with a side of rice and choice of be</p>
+        <h4>$10.49</h4>
+      </div>
+
+      <div class="col-lg-3 col-md-4 col-sm-6">
+        <h2>Ham & Egg Burrito</h2>
+        <p>Two scrambled eggs, ham, potatoes, with rice, cheese and choice of beans.</p>
+        <h4>$10.49</h4>
+      </div>
+
+      <div class="col-lg-3 col-md-4 col-sm-6">
+        <h2>Chorizo & Egg Burrito</h2>
+        <p>Two scrambled eggs, mexican sausage, potatoes, with rice, cheese, and choice of beans.</p>
+        <h4>$10.49</h4>
+      </div>
+
+      <div class="col-lg-3 col-md-4 col-sm-6">
+        <h2>Machaca Burrito</h2>
+        <p>Two scrambled eggs, shredded beef, pico de gallo, with rice, cheese, and choice of beans.</p>
+        <h4>$10.49</h4>
+      </div>
+
+      <div class="col-lg-3 col-md-4 col-sm-6">
+        <h2>Papas & Egg Burrito</h2>
+        <p>Two scrambled eggs, potatoes, spicy red salsa, with rice, cheese, and choice of beans.</p>
+        <h4>$10.49</h4>
+      </div>
+
+      <div class="col-lg-3 col-md-4 col-sm-6">
+        <h2>Bacon & Egg Burrito</h2>
+        <p>Two scrambled eggs, three bacon strips, potatoes, with rice, cheese, and choice of beans.</p>
+        <h4>$10.49</h4>
+      </div>
+
+    </div>
+
+  </div>
+
+   <!-- Side Orders -->
+   <div id="side-sec"class="container hidden-left">
+
+    <div class="row text-center m-5">
+      <h1>Side Orders</h1>
+    </div>
+
+    <div class="row">
+
+      <div class="col-lg-3 col-md-4 col-sm-6">
+        <h2>Mexican Flan</h2>
+        <p>Traditional mexican dessert.</p>
+        <h4>$4.99</h4>
+      </div>
+
+      <div class="col-lg-3 col-md-4 col-sm-6">
+        <h2>Guacamole & Chips</h2>
+        <p>8oz of guacamole with a medium bag of chips.</p>
+        <h4>$8.49</h4>
+      </div>
+
+      <div class="col-lg-3 col-md-4 col-sm-6">
+        <h2>Salsa and Chips</h2>
+        <p>8oz of our homemade style salsa with a medium bag of chips.</p>
+        <h4>$7.19</h4>
+      </div>
+
+      <div class="col-lg-3 col-md-4 col-sm-6">
+        <h2>Large Rice</h2>
+        <p>8oz of our mexican style rice.</p>
+        <h4>$2.99</h4>
+      </div>
+
+      <div class="col-lg-3 col-md-4 col-sm-6">
+        <h2>Large Beans</h2>
+        <p>8oz of our mexican style beans.</p>
+        <h4>$2.99</h4>
+      </div>
+
+      <div class="col-lg-3 col-md-4 col-sm-6">
+        <h2>Large Salsa</h2>
+        <p>8oz of our homemade style salsa.</p>
+        <h4>$3.00</h4>
+      </div>
+
+      <div class="col-lg-3 col-md-4 col-sm-6">
+        <h2>Spicy Carrots & Jalapenos</h2>
+        <p>8oz of spicy carrots and jalapeños.</p>
+        <h4>$3.49</h4>
+      </div>
+
+      <div class="col-lg-3 col-md-4 col-sm-6">
+        <h2>Side of Chips</h2>
+        <p>Bag of chips.</p>
+        <h4>priced by add on</h4>
+      </div>
+
+      <div class="col-lg-3 col-md-4 col-sm-6">
+        <h2>Cup of Guacamole</h2>
+        <p>1.5oz salsa cup size of guacamole.</p>
+        <h4>$1.75</h4>
+      </div>
+
+      <div class="col-lg-3 col-md-4 col-sm-6">
+        <h2>Cup of Sour Cream</h2>
+        <p>1.5oz salsa cup size of sour cream.</p>
+        <h4>$1.50</h4>
+      </div>
+
+    </div>
+
+  </div>
+
+     <!-- Drinks -->
+     <div id="drinks-sec" class="container">
+
+      <div class="row text-center m-5">
+        <h1>Drinks</h1>
+      </div>
+  
+      <div class="row">
+  
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <h2>Fountain Drinks</h2>
+          <p>Pepsi, Diet Pepsi, Pink Lemonade, Brisk Raspberry Iced Tea, Crush Orange Soda, Dr.Pepper, Sierra Mist, Horchata, Jamaica, Orange Bang Juice, Unsweetened Iced Tea.</p>
+          <h4>$2.69</h4>
+          
+        </div>
+  
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <h2>Bottles Juices</h2>
+          <p>Gatorade Cool Blue, Gatorade Fruit Punch, Gatorade Lemon-Lime, Gatorade Orange, Cranberry Juice, Apple Juice, Orange Juice, Lipton Green Tea, Lipton Diet Green Tea.</p>
+          <h4>$2.99</h4>
+        </div>
+  
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <h2>Bottled Water</h2>
+          <p></p>
+          <h4>$1.99</h4>
+        </div>
+      </div>
+    </div>
+
+<!-- Footer -->
+<footer class="text-center text-lg-start bg-light text-muted">
+  <!-- Section: Social media -->
+  <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+    <!-- Left -->
+    <div class="me-5 d-none d-lg-block">
+      <span>Connect with us to recieve special deals and offers:</span>
+    </div>
+    <!-- Left -->
+
+    <!-- Right -->
+    <div>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-google"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-instagram"></i>
+      </a>
+    </div>
+    <!-- Right -->
+  </section>
+  <!-- Section: Social media -->
+
+  <!-- Section: Links  -->
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <h6 class="text-uppercase fw-bold mb-2">Wana Iguana</h6>
+          <p>
+            We are a family owned restaurant that has been in business since 1997. Offering a wide variety of Mexican food that is always cooked fresh! NO lard, NO preservatives, NO msg, NO microwaves, and NO freezers! We offer dine in or pick up orders. Come give us a try!
+          </p>
+        </div>
+        <!-- Grid column -->
+
+
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-4 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-2">
+            Useful links
+          </h6>
+          <p>
+            <a href="menu.html" class="text-reset">Menu</a>
+          </p>
+          <p>
+            <a href="menu.html" class="text-reset">Specials</a>
+          </p>
+          <p>
+            <a href="aboutus.html" class="text-reset">About Us</a>
+          </p>
+          <p>
+            <a href="valencia.html" class="text-reset">Valencia, CA</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-4 col-xl-3 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+          <p><i class="fas fa-home me-3"></i> Santa Clarita, CA 91354, US</p>
+          <p>
+            <i class="fas fa-envelope me-3"></i>
+            office@wanaiguana.com
+          </p>
+          <p><i class="fas fa-phone me-3"></i>661-297-9222</p>
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+  </section>
+  <!-- Section: Links  -->
+
+  <!-- Copyright -->
+  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+    © 2022 Copyright:
+    <a class="text-reset fw-bold" href="index.html">Wana Iguana - Fresh Baja Grill</a>
+    - Made with code <i class="bi bi-braces"></i> care <i class="bi bi-balloon-heart-fill"></i> & caffeine <i class="bi bi-cup-hot-fill"></i>  by <a class="text-reset fw-bold" href="https://mdbootstrap.com/">June</a>  &  <a class="text-reset fw-bold" href="https://juliocesarlq.github.io">July</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+
+<!-- Footer END -->
+
+<!-- Scripts -->
+
+<!-- Bootstrap -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+ 
+<!-- Custom scripts -->
+<script type="text/javascript"></script>
+
+<!-- Scripts END -->
+  </body>
+</html>
